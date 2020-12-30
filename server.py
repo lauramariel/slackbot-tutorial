@@ -51,6 +51,6 @@ if __name__ == "__main__":
   slack_client = WebClient(SLACK_BOT_TOKEN)
   verifier = SignatureVerifier(SLACK_SIGNATURE)
 
-  commander = Slash("Hey there! It works.")
+  commander = Slash()
 
   app.run()
